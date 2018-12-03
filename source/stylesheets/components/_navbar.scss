@@ -75,3 +75,14 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+
+.navbar-links {
+  margin: 10px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-links:hover{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
