@@ -19,16 +19,26 @@
 h1{
   color: black;
   margin-left: 10px;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: 350;
+  letter-spacing: 2px;
+  margin-left: 0;
+
 }
 
 h2{
   color: $light-gray;
-  font-weight: 200;
-  letter-spacing: 4px;
-  text-align: left;
-  margin-bottom: 5px;font-family: Ennore-Light !important;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  line-height: 1;
 }
+
+p{
+  color: $light-gray;
+  margin-left: 67px;
+}
+
 #home-information{
     z-index: 100000;
     background: rgba(255,255,255,0.98);
@@ -52,8 +62,12 @@ h2{
   float: left;
   display: flex;
   align-items: center;
-
+  margin-top: -157px;
+  background-color: $baby-powder;
+  margin-right: 104px;
+  margin-left: 106px
 }
+
 
 #left-info {
     width: 41.66667%;
