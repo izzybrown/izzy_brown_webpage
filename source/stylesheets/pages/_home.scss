@@ -80,3 +80,25 @@ p{
   align-items: center;
 }
 
+.work-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ports {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  width: 50vw;
+  height: 70vh;
+}
+
+.ports-text {
+  align-items: center;
+  justify-content: center;
+  margin-left: 204px;
+}
+
