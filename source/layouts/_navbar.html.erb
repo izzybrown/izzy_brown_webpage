@@ -1,11 +1,37 @@
 <div class="navbar-wagon">
-  <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "logo.png", id:"logo" %>
+  <!-- Logo -->
+ <!--  <a href="/" class="navbar-wagon-brand">
+    <img src="images/logo.png" alt="logo">
+  </a> -->
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <%= link_to "Home", "landing.html", class: 'navbar-links' %>
-    <%= link_to "About me", "about.html", class: 'navbar-links' %>
-    <%= link_to "Contact", "contact.html", class: 'navbar-links' %>
+    <%= link_to "Home", 'index.html', class: 'navbar-links' %>
+    <%= link_to "About Me", 'about.html', class: 'navbar-links' %>
+    <%= link_to "Contact Me", 'contact.html', class: 'navbar-links' %>
+  </div>
+    <!-- Profile picture with dropdown list -->
+  <!--   <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+ -->
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
   </div>
 </div>

@@ -15,3 +15,52 @@
     font-size: 16px;
   }
 }
+
+h1{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+h2{
+  color: $light-gray;
+  font-weight: 200;
+  letter-spacing: 4px;
+  text-align: left;
+  margin-bottom: 5px;font-family: Ennore-Light !important;
+}
+#home-information{
+    z-index: 100000;
+    background: rgba(255,255,255,0.98);
+    padding: 1%;
+    padding-bottom: 0%;
+    padding-top: 25px;
+    margin-top: -300px;
+    display: block;
+}
+
+.row{
+  width: 100%;
+  max-width: 114rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.column {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  float: left;
+  display: flex;
+  align-items: center;
+
+}
+
+#left-info {
+    width: 41.66667%;
+}
+
+#header-info {
+  display: flex;
+  align-items: center;
+}
+
