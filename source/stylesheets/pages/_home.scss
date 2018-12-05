@@ -96,6 +96,12 @@ p{
   height: 70vh;
 }
 
+.card:hover{
+  opacity: 0.5;
+  background-color: black;
+
+}
+
 .ports-text {
   align-items: center;
   justify-content: center;
@@ -105,5 +111,22 @@ p{
   margin-right: 30px;
 }
 
+// .overlay {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   height: 100%;
+//   width: 100%;
+//   opacity: 0;
+//   transition: .3s ease;
+//   background-color: red;
+// }
 
+// .container {
+//   position: relative;
+//   width: 50vw;
+//   height: 70vh;
+// }
 
