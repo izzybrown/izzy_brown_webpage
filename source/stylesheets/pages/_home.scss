@@ -92,8 +92,9 @@ p{
 }
 
 .card {
-  width: 50vw;
+  width: 52vw;
   height: 75vh;
+  margin-left: 15px;
 }
 
 .card:hover{
@@ -119,6 +120,19 @@ p{
   align-items: center;
   margin: auto;
   width: 50vw;
+}
+
+.idk-card{
+  width: 23vw;
+  height: 73vh;
+  margin-right: 186px;
+  margin-left: 83px;
+}
+
+.idk-card:hover{
+  opacity: 0.5;
+  background-color: black;
+
 }
 // .overlay {
 //   position: absolute;
