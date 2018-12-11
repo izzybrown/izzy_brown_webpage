@@ -133,7 +133,15 @@ p{
 .idk-card:hover{
   opacity: 0.5;
   background-color: black;
+}
 
+.skills{
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 // .overlay {
 //   position: absolute;
