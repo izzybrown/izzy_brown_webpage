@@ -143,6 +143,17 @@ p{
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.skills-circles{
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 58px;
+  width: 63px;
+  text-align: center;
+  left: calc(50vw - 75px);
+  top: -75px;
+  padding-top: 15px;
+}
 // .overlay {
 //   position: absolute;
 //   top: 0;
