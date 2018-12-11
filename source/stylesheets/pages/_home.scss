@@ -145,14 +145,16 @@ p{
 }
 
 .skills-circles{
-  border: 1px solid black;
+  border: 1px solid $khaki;
   border-radius: 50%;
-  height: 58px;
-  width: 63px;
+  height: 87px;
+  width: 101px;
   text-align: center;
   left: calc(50vw - 75px);
-  top: -75px;
-  padding-top: 15px;
+  top: -91px;
+  padding-top: 30px;
+  background-color: $dark-gray;
+  color: white;
 }
 // .overlay {
 //   position: absolute;
